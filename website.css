@@ -1,0 +1,56 @@
+html{
+  background-color: MistyRose;
+}
+
+h2{
+  color:grey;
+  font-family: fantasy;
+  font-size:50px;
+}
+
+strong{
+  color:grey; font-size:24px;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.align{
+  text-align: center;
+  align-items: center;
+
+}
+
+div{
+  background-color: : MistyRose;
+  width: 300px;
+  border:25px solid white;
+  padding: 25px:inherit;
+  margin: 25px;
+}
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+#center{
+  clear:left;
+  overflow:auto;
+}
+
+#left{
+  float: left ;
+  font-size: 18px;
+}
+
+#right{
+  float: right;
+}
